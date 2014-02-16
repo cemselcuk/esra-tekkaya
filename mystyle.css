@@ -10,12 +10,20 @@ body {
 
 p {
 	font-weight: 50;
+	color: #f0f0f0;
 }
 
 h1 {
 	font-family: "FS Albert Pro Light";
 	font-weight: 100;
-	font-size: 58px;
+	font-size: 50px;
+	color: #f0f0f0;
+}
+
+h2 {
+	font-family: "FS Albert Pro Light";
+	font-weight: 100;
+	font-size: 32px;
 	color: #f0f0f0;
 }
 
@@ -39,7 +47,7 @@ h1 {
 	height: 67px;
 	background-image: url(../images/logo.png);
 	margin-top: 34px;
-	margin-left: 235px;
+	margin-left: 16%;
 	position: relative;	
 }
 
@@ -75,12 +83,24 @@ h1 {
 
 #photopart {
 	width: auto;
-	height: 671px;
+	height: 670px;
 	background-image: url(../images/vakkobg.png);
 }
 
-.headline {
-	margin: auto;
-
+#photopart h1 {
+	padding-top: 7%;
+	padding-left: 16%;
+	margin: 0;
+	position: relative;
 }
+
+#photopart h2 {
+	padding-left: 16%;
+	line-height: 45px;
+}
+
+#buton {
+	margin-left: 15%;
+}
+
 
